@@ -1,4 +1,4 @@
-# Auto-Control-C
+# Auto-Control-Cplus
 
 * pid
 * lowpass filter
