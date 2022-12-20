@@ -141,6 +141,67 @@ PID/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PID.dir\build.make CMakeFiles/PID.dir/build
 .PHONY : PID/fast
 
+#=============================================================================
+# Target rules for targets named KF
+
+# Build rule for target.
+KF: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 KF
+.PHONY : KF
+
+# fast build rule for target.
+KF/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KF.dir\build.make CMakeFiles/KF.dir/build
+.PHONY : KF/fast
+
+KF/demo.obj: KF/demo.cpp.obj
+.PHONY : KF/demo.obj
+
+# target to build an object file
+KF/demo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KF.dir\build.make CMakeFiles/KF.dir/KF/demo.cpp.obj
+.PHONY : KF/demo.cpp.obj
+
+KF/demo.i: KF/demo.cpp.i
+.PHONY : KF/demo.i
+
+# target to preprocess a source file
+KF/demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KF.dir\build.make CMakeFiles/KF.dir/KF/demo.cpp.i
+.PHONY : KF/demo.cpp.i
+
+KF/demo.s: KF/demo.cpp.s
+.PHONY : KF/demo.s
+
+# target to generate assembly for a file
+KF/demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KF.dir\build.make CMakeFiles/KF.dir/KF/demo.cpp.s
+.PHONY : KF/demo.cpp.s
+
+KF/kf.obj: KF/kf.cpp.obj
+.PHONY : KF/kf.obj
+
+# target to build an object file
+KF/kf.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KF.dir\build.make CMakeFiles/KF.dir/KF/kf.cpp.obj
+.PHONY : KF/kf.cpp.obj
+
+KF/kf.i: KF/kf.cpp.i
+.PHONY : KF/kf.i
+
+# target to preprocess a source file
+KF/kf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KF.dir\build.make CMakeFiles/KF.dir/KF/kf.cpp.i
+.PHONY : KF/kf.cpp.i
+
+KF/kf.s: KF/kf.cpp.s
+.PHONY : KF/kf.s
+
+# target to generate assembly for a file
+KF/kf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\KF.dir\build.make CMakeFiles/KF.dir/KF/kf.cpp.s
+.PHONY : KF/kf.cpp.s
+
 LPF/lowpass_filter.obj: LPF/lowpass_filter.cpp.obj
 .PHONY : LPF/lowpass_filter.obj
 
@@ -197,8 +258,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... KF
 	@echo ... LPF
 	@echo ... PID
+	@echo ... KF/demo.obj
+	@echo ... KF/demo.i
+	@echo ... KF/demo.s
+	@echo ... KF/kf.obj
+	@echo ... KF/kf.i
+	@echo ... KF/kf.s
 	@echo ... LPF/lowpass_filter.obj
 	@echo ... LPF/lowpass_filter.i
 	@echo ... LPF/lowpass_filter.s

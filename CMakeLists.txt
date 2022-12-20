@@ -15,3 +15,9 @@ add_executable(PID
         PID/pid.cpp
         PID/pid.h
         )
+
+add_executable(KF
+        KF/demo.cpp
+        KF/kf.cpp
+        KF/kf.h
+        )

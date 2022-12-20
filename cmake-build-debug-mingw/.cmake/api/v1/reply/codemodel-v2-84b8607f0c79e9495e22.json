@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,12 +33,20 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "KF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KF-Debug-7e475622c80e7de025c7.json",
+					"name" : "KF",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "LPF::@6890427a1f51a3e7e1df",
