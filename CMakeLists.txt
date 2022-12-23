@@ -21,3 +21,7 @@ add_executable(KF
         KF/kf.cpp
         KF/kf.h
         )
+
+add_executable(MPC
+        MPC/mpc.cpp
+        )

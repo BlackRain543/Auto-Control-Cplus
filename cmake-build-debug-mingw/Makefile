@@ -154,6 +154,19 @@ KF/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\KF.dir\build.make CMakeFiles/KF.dir/build
 .PHONY : KF/fast
 
+#=============================================================================
+# Target rules for targets named MPC
+
+# Build rule for target.
+MPC: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MPC
+.PHONY : MPC
+
+# fast build rule for target.
+MPC/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MPC.dir\build.make CMakeFiles/MPC.dir/build
+.PHONY : MPC/fast
+
 KF/demo.obj: KF/demo.cpp.obj
 .PHONY : KF/demo.obj
 
@@ -226,6 +239,30 @@ LPF/lowpass_filter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LPF.dir\build.make CMakeFiles/LPF.dir/LPF/lowpass_filter.cpp.s
 .PHONY : LPF/lowpass_filter.cpp.s
 
+MPC/MPC.obj: MPC/MPC.cpp.obj
+.PHONY : MPC/MPC.obj
+
+# target to build an object file
+MPC/MPC.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MPC.dir\build.make CMakeFiles/MPC.dir/MPC/MPC.cpp.obj
+.PHONY : MPC/MPC.cpp.obj
+
+MPC/MPC.i: MPC/MPC.cpp.i
+.PHONY : MPC/MPC.i
+
+# target to preprocess a source file
+MPC/MPC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MPC.dir\build.make CMakeFiles/MPC.dir/MPC/MPC.cpp.i
+.PHONY : MPC/MPC.cpp.i
+
+MPC/MPC.s: MPC/MPC.cpp.s
+.PHONY : MPC/MPC.s
+
+# target to generate assembly for a file
+MPC/MPC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MPC.dir\build.make CMakeFiles/MPC.dir/MPC/MPC.cpp.s
+.PHONY : MPC/MPC.cpp.s
+
 PID/pid.obj: PID/pid.cpp.obj
 .PHONY : PID/pid.obj
 
@@ -260,6 +297,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... KF
 	@echo ... LPF
+	@echo ... MPC
 	@echo ... PID
 	@echo ... KF/demo.obj
 	@echo ... KF/demo.i
@@ -270,6 +308,9 @@ help:
 	@echo ... LPF/lowpass_filter.obj
 	@echo ... LPF/lowpass_filter.i
 	@echo ... LPF/lowpass_filter.s
+	@echo ... MPC/MPC.obj
+	@echo ... MPC/MPC.i
+	@echo ... MPC/MPC.s
 	@echo ... PID/pid.obj
 	@echo ... PID/pid.i
 	@echo ... PID/pid.s

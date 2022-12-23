@@ -51,4 +51,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LPF.dir/DependInfo.cmake"
   "CMakeFiles/PID.dir/DependInfo.cmake"
   "CMakeFiles/KF.dir/DependInfo.cmake"
+  "CMakeFiles/MPC.dir/DependInfo.cmake"
   )
