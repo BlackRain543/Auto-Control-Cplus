@@ -14,3 +14,4 @@
 ---
 * kf【Kalmen Filter】: 卡尔曼滤波器
 * ekf【Extened Kalmen Filter】: 扩展卡尔曼滤波器
+* ols【Ordinary Linear Square】: 最小二乘法
