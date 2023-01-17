@@ -11,7 +11,7 @@ public:
     explicit PidController(float _p, float _i, float _d, float _ramp, float _limit) :
         p(_p), i(_i), d(_d), outputRamp(_ramp), limit(_limit)
     {
-        timeStamp = micros();
+//        timeStamp = micros();
     }
 
     float operator()(float error);

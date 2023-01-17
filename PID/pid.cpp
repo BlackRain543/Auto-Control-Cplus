@@ -3,8 +3,9 @@
 
 float PidController::operator()(float error)
 {
-    auto time = micros();
-    float dt = (float) (time - timeStamp) * 1e-6f;
+//    auto time = micros();
+//    float dt = (float) (time - timeStamp) * 1e-6f;
+    float dt = 1;
     // Quick fix for strange cases (micros overflow)
     if (dt <= 0 || dt > 0.5f) dt = 1e-3f;
 

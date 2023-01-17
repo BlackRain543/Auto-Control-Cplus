@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/OLS.dir/OLS/main_ols.cpp.o CMakeFiles/OLS.dir/OLS/ols.cpp.o -o OLS 

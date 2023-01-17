@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Auto_Control_Cplus"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LPF">
+				<Option output="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/LPF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF"/>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/PID"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 LPF"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LPF/fast">
+				<Option output="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/LPF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF"/>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/PID"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 LPF/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PID">
+				<Option output="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/PID" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF"/>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/PID"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 PID"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PID/fast">
+				<Option output="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/PID" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF"/>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/PID"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 PID/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KF">
+				<Option output="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/KF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF"/>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/PID"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 KF"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KF/fast">
+				<Option output="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/KF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF"/>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/PID"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 KF/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MPC">
+				<Option output="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/MPC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF"/>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/PID"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPC"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MPC/fast">
+				<Option output="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/MPC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF"/>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/PID"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 MPC/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OLS">
+				<Option output="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/OLS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF"/>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/PID"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 OLS"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OLS/fast">
+				<Option output="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/OLS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF"/>
+					<Add directory="/home/dellg15/Mycodes/Auto-Control-Cplus/PID"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 OLS/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/dellg15/Mycodes/Auto-Control-Cplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/KF/kf.cpp">
+			<Option target="KF"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/KF/kf.h">
+			<Option target="KF"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/KF/main_kf.cpp">
+			<Option target="KF"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF/lowpass_filter.cpp">
+			<Option target="LPF"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF/lowpass_filter.h">
+			<Option target="LPF"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/LPF/main_lpf.cpp">
+			<Option target="LPF"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/MPC/mpc_demo.cpp">
+			<Option target="MPC"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/OLS/main_ols.cpp">
+			<Option target="OLS"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/OLS/ols.cpp">
+			<Option target="OLS"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/OLS/ols.h">
+			<Option target="OLS"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/PID/main_pid.cpp">
+			<Option target="PID"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/PID/pid.cpp">
+			<Option target="PID"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/PID/pid.h">
+			<Option target="PID"/>
+		</Unit>
+		<Unit filename="/home/dellg15/Mycodes/Auto-Control-Cplus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
