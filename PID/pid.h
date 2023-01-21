@@ -1,7 +1,9 @@
 #ifndef PID_H
 #define PID_H
 
-#define _constrain(amt,low,high) ((amt)<(low)?(low):((amt)>(high)?(high):(amt)))
+#include <time.h>
+
+#define _constrain(amt, low, high) ((amt)<(low)?(low):((amt)>(high)?(high):(amt)))
 
 class PidController {
 public:
@@ -10,9 +12,11 @@ public:
     explicit PidController(float _p, float _i, float _d, float _ramp, float _limit) :
             p(_p), i(_i), d(_d), outputRamp(_ramp), limit(_limit) {
       //        timeStamp = micros();
+      timeStamp = clock();
     }
 
     float operator()(float error);
+
 
     float p = 0;
     float i = 0;
@@ -22,10 +26,11 @@ public:
 
 
 protected:
+    clock_t timeStamp = 0;
     float errorLast = 0;
     float outputLast = 0;
     float integralLast = 0;
-    unsigned long timeStamp = 0;
+//    unsigned long timeStamp = 0;
 };
 
 #endif

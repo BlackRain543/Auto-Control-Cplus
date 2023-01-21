@@ -1,15 +1,15 @@
 #ifndef LPF_H
 #define LPF_H
 
-class LowPassFilter
-{
+#include <time.h>
+
+class LowPassFilter {
 public:
     LowPassFilter() = default;
 
     explicit LowPassFilter(float _timeConstant)
-        : timeConstant(_timeConstant), outputLast(0.0f)
-    {
-        timeStamp = micros();
+            : timeConstant(_timeConstant), outputLast(0.0f) {
+      timeStamp = clock();
     }
 
 
@@ -18,8 +18,9 @@ public:
 
 
 protected:
-    unsigned long timeStamp;
+    clock_t timeStamp = 0;
     float outputLast;
+
 };
 
 #endif

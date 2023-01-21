@@ -1,20 +1,20 @@
 #include "pid.h"
 
-
 float PidController::operator()(float error)
 {
 //    auto time = micros();
-//    float dt = (float) (time - timeStamp) * 1e-6f;
-    float dt = 1;
-    // Quick fix for strange cases (micros overflow)
-    if (dt <= 0 || dt > 0.5f) dt = 1e-3f;
+  auto time = clock();
+  float dt = (float) (time - timeStamp) / CLOCKS_PER_SEC;
 
-    float pTerm = p * error;
-    float iTerm = integralLast + i * dt * 0.5f * (error + errorLast);
-    iTerm = _constrain(iTerm, -limit, limit);
-    float dTerm = d * (error - errorLast) / dt;
+  // Quick fix for strange cases (micros overflow)
+  if (dt <= 0 || dt > 0.5f) dt = 1e-3f;
 
-    float output = pTerm + iTerm + dTerm;
+  float pTerm = p * error;
+  float iTerm = integralLast + i * dt * 0.5f * (error + errorLast);
+  iTerm = _constrain(iTerm, -limit, limit);
+  float dTerm = d * (error - errorLast) / dt;
+
+  float output = pTerm + iTerm + dTerm;
     output = _constrain(output, -limit, limit);
 
     // If output ramp defined
