@@ -3,15 +3,13 @@
 
 #define _constrain(amt,low,high) ((amt)<(low)?(low):((amt)>(high)?(high):(amt)))
 
-class PidController
-{
+class PidController {
 public:
     PidController() = default;
 
     explicit PidController(float _p, float _i, float _d, float _ramp, float _limit) :
-        p(_p), i(_i), d(_d), outputRamp(_ramp), limit(_limit)
-    {
-//        timeStamp = micros();
+            p(_p), i(_i), d(_d), outputRamp(_ramp), limit(_limit) {
+      //        timeStamp = micros();
     }
 
     float operator()(float error);

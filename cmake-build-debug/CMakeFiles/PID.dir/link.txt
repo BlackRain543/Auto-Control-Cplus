@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/PID.dir/PID/pid.cpp.o CMakeFiles/PID.dir/PID/main_pid.cpp.o -o PID 

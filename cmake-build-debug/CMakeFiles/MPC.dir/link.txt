@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/MPC.dir/MPC/mpc_demo.cpp.o -o MPC 

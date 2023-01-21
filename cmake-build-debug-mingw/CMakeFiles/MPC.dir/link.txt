@@ -1,3 +1,0 @@
-"E:\Program File\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MPC.dir/objects.a
-"E:\Program File\JetBrains\CLion 2022.2.4\bin\mingw\bin\ar.exe" qc CMakeFiles\MPC.dir/objects.a @CMakeFiles\MPC.dir\objects1.rsp
-"E:\Program File\JetBrains\CLion 2022.2.4\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\MPC.dir/objects.a -Wl,--no-whole-archive -o MPC.exe -Wl,--out-implib,libMPC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MPC.dir\linklibs.rsp

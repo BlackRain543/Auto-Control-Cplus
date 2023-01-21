@@ -1,5 +1,5 @@
 //
-// Created by dellg15 on 23-1-17.
+// Created by a8930 on 2023/1/17.
 //
 
 #ifndef AUTO_CONTROL_CPLUS_OLS_H
@@ -7,6 +7,7 @@
 
 
 class ols {
+private:
 
 };
 

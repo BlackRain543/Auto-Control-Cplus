@@ -1,3 +1,0 @@
-"E:\Program File\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\PID.dir/objects.a
-"E:\Program File\JetBrains\CLion 2022.2.4\bin\mingw\bin\ar.exe" qc CMakeFiles\PID.dir/objects.a @CMakeFiles\PID.dir\objects1.rsp
-"E:\Program File\JetBrains\CLion 2022.2.4\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\PID.dir/objects.a -Wl,--no-whole-archive -o PID.exe -Wl,--out-implib,libPID.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PID.dir\linklibs.rsp
