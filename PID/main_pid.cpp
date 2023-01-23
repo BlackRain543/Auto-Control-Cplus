@@ -10,7 +10,6 @@ PidController PID{0.3, 5, 0, 0, 300};
 // 定义/打开输出的txt文件
 std::ofstream out_txt_file;
 
-
 int main() {
 
   float target = 50.0f;
@@ -28,11 +27,21 @@ int main() {
     output = PID(target - output);
 
     i++;
-//    std::cout<<output<<",";
-    out_txt_file << target << "," << output << "," << std::endl;
 
+    out_txt_file << target << "," << output << "," << std::endl;
   }
+
   out_txt_file.close();
 
   return 0;
 }
+
+//  #include "matplotlibcpp.h"
+//  namespace plt = matplotlibcpp;
+//  std::vector<double> x(n), y(n);
+//  x.at(i) = i;
+//  y.at(i) = output;
+//  plt::figure_size(1200, 780);
+//  plt::plot(x, y);
+//  plt::title("Sample figure");
+//  plt::show();

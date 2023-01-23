@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 project(Auto_Control_Cplus)
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
+
 
 include_directories(F:\\Eigen\\v3.4.0)
 include_directories(F:\\matplotlib-cpp-master)
@@ -17,9 +18,12 @@ include_directories(F:\\matplotlib-cpp-master)
 #include_directories(E:/Python3.9.11/Lib/site-packages/numpy/core/include)
 #link_libraries(E:/Python3.9.11/libs/python39.lib)
 
-#include_directories(E:/Anaconda3/envs/python39/include)
-#include_directories(E:/Anaconda3/envs/python39/Lib/site-packages/numpy/core/include)
+include_directories(E:/Anaconda3/envs/python39/include)
+include_directories(E:/Anaconda3/envs/python39/Lib/site-packages/numpy/core/include)
 #link_libraries(E:/Anaconda3/envs/python39/libs/python39.lib)
+#link_libraries(E:/Anaconda3/envs/python39/python39.dll)
+#link_libraries(E:/Anaconda3/envs/python39/libs)
+
 
 #add_executable(Auto_Control_Cplus eigen_demo.cpp)
 
@@ -57,7 +61,7 @@ add_executable(PLL
 
 add_executable(SMC
         SMC/main_smc.cpp
-        )
+        SMC/smc.cpp SMC/smc.h)
 
 add_executable(LQR
         LQR/main_lqr.cpp

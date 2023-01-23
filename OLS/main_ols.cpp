@@ -16,7 +16,7 @@ using namespace std;
 int main(){
 
     // txt点数据文件路径
-    const string fileName = "../points.txt";
+    const string fileName = "../Data/ols_data.txt";
 
     // 读取文件
     ifstream f(fileName);

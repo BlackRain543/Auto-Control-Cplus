@@ -1,0 +1,131 @@
+{
+  "configurations": [
+    {
+      "directories": [
+        {
+          "build": ".",
+          "jsonFile": "directory-.-Release-d0094a50bb2071803777.json",
+          "minimumCMakeVersion": {
+            "string": "3.21"
+          },
+          "projectIndex": 0,
+          "source": ".",
+          "targetIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "name": "Release",
+      "projects": [
+        {
+          "directoryIndexes": [
+            0
+          ],
+          "name": "Auto_Control_Cplus",
+          "targetIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "directoryIndex": 0,
+          "id": "ADRC::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-ADRC-Release-9091c05ba2c91645a9c1.json",
+          "name": "ADRC",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "KF::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-KF-Release-9bbb367e3eec6c8b9fbe.json",
+          "name": "KF",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "LPF::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-LPF-Release-fe408a537931b42f822e.json",
+          "name": "LPF",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "LQR::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-LQR-Release-1d76b6bc6df9027cbe50.json",
+          "name": "LQR",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "MPC::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-MPC-Release-bc275586317f734dae63.json",
+          "name": "MPC",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "OLS::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-OLS-Release-5fd0dc8e3becfdbe5da8.json",
+          "name": "OLS",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "PID::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-PID-Release-df96e17563261b748ac5.json",
+          "name": "PID",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "PLL::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-PLL-Release-44008b60566fc2715d92.json",
+          "name": "PLL",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "SMC::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-SMC-Release-ee6efa3cd7d5e9aa4a69.json",
+          "name": "SMC",
+          "projectIndex": 0
+        },
+        {
+          "directoryIndex": 0,
+          "id": "Time::@6890427a1f51a3e7e1df",
+          "jsonFile": "target-Time-Release-1b88d1db8d4372396954.json",
+          "name": "Time",
+          "projectIndex": 0
+        }
+      ]
+    }
+  ],
+  "kind": "codemodel",
+  "paths": {
+    "build": "D:/Auto-Control-Cplus/cmake-build-release-cplus",
+    "source": "D:/Auto-Control-Cplus"
+  },
+  "version": {
+    "major": 2,
+    "minor": 3
+  }
+}
