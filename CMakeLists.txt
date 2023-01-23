@@ -72,9 +72,14 @@ add_executable(ADRC
         ADRC/LADRC.cpp
         ADRC/LADRC.h)
 
-add_executable(Time
-        time_demo.cpp)
+add_executable(Utils_time
+        Utils/time_demo.cpp)
 
+add_executable(Utils_random
+        Utils/random_data_generate.cpp)
+
+add_executable(Utils_eigen
+        Utils/eigen_demo.cpp)
 
 
 

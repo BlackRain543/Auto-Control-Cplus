@@ -17,8 +17,10 @@ using namespace std;
 int main() {
   float u = 0;
   //LADRC(float Wo, float Wc, float b, float y, float h, float ref);
+
   LADRC ladrc(10, 10, 1, 0.8, 0.02, 1);
   u = ladrc.Output();
+
   cout << "u=" << u << endl;
 
   return 0;

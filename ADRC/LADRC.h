@@ -23,13 +23,15 @@ class LADRC
 private:
     float _h;// 步长
     float _t1; //初始和末尾时刻
-    //LESO和控制器参数
+
+    // ----- LESO和控制器参数 -----  //
     float _ref;
     float _y;
     float _u;
-    float _Wo;//LESO带宽
-    float _Wc;//控制带宽
-    float _b;//控制输入系数
+    float _Wo;            //LESO带宽
+    float _Wc;            //控制带宽
+    float _b;             //控制输入系数
+
     float beta_Wo[ODE_NUM + 1];//LESO系数
     float beta_Wc[ODE_NUM];//控制器系数
     vector<float> _z; //表示LESO返回值
@@ -45,7 +47,6 @@ private:
 
 public:
     //构造函数
-    //LADRC(float, float , float , float , float,float );
     LADRC(float Wo, float Wc, float b, float y, float h, float ref);
 
     void Controller();
@@ -54,7 +55,7 @@ public:
 
     vector<float> LESO(float, vector<float>);
 
-    //void LESO();
+
     //LADRC计算中使用到的相关函数
     float jiecheng(int n);
 
