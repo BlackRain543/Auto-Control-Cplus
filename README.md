@@ -10,7 +10,7 @@
 * lqr【Linear Quadratic Regulator】: 线性二次调节器
 * mpc【Model Predictive Control】: 模型预测控制
 * adrc【Active Disturbance Rejection Control】:自抗扰控制器
-* 滑模控制 (sliding mode control】: SMC
+* smc【sliding mode control】: 滑模控制
 
 ---
 
@@ -20,5 +20,8 @@
 
 ---
 
-* 滑膜观测器
-* 龙伯格观测器
+* smo【sliding mode observer】: 滑膜观测器
+* lo【Luenberger observer】: 龙伯格观测器
+* bf【Butterworth Filter】: 巴特沃斯滤波器
+
+* WBC【Whole Body Control】: 全身控制
